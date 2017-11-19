@@ -1,0 +1,101 @@
+@font-face{
+	font-family: "font1";
+	src:url(../fonts/font1.otf);
+}
+body{
+	background-image:url("../img/bkg.png");
+}
+#logo,#btn_games,#btn_equipe{
+	margin:auto;
+	display:block;
+}
+
+#btn_games,#btn_equipe,#btn_ffg{
+	border-radius:12px;
+	border-color:white;
+	color:white;
+	font-family: font1;
+}
+
+#btn_ffg>img{
+	display:block;
+	margin:auto;
+	width:360px;
+	height: 120px;
+}
+
+#logo{
+	width: 300px;
+	height: 200px;
+}
+
+#btn_games,#btn_equipe{
+	background-color: black;
+	text-align:center;
+	text-decoration: none;
+	font-size: 20px;
+}
+#btn_games,#btn_equipe{
+	width:115px;
+	height: 52px;
+}
+
+#games,#equipe{
+	display:none;
+}
+
+#img_alef,#img_gian,#img_jc,#img_leo,#img_vini{
+	display:inline-block;
+	margin:5px;
+	width:200px;
+	height:200px;
+}
+
+#alef{
+	margin-left:70px;
+}
+
+#gian{
+	margin-left:120px;
+}
+
+#jc{
+	margin-left:120px;
+}
+
+#leonardo{
+	margin-left:110px;
+}
+
+#vinicius{
+	margin-left:90px;
+}
+
+#equipe{
+	margin-left:200px;
+}
+
+#equipe>button{
+	border-style: none;
+	border-radius:12px;
+	border-color:white;
+	background-color:black;
+	height: 30px;
+	color:white;
+	font-family: font1;
+}
+
+a:visited{
+	color:white;
+}
+
+a:link{
+	color:white;
+}
+
+a:active{
+	color:white;
+}
+a:hover{
+	color:white;
+}
