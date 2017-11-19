@@ -1,0 +1,40 @@
+@font-face{
+	font-family: "font1";
+	src:url(../../fonts/font1.otf);
+}
+body{
+	background-color: black;
+}
+
+img{
+	display:block;
+	margin:auto;
+}
+
+.ism-slider{
+	display:block;
+	margin:auto;
+}
+
+#downloads>a>img{
+	width:200px;
+	height:200px;
+	display: inline-block;
+	margin-left:60px;
+}
+
+p{
+	font-family: "font1";
+	text-align: center;
+	color:white;
+}
+
+footer{
+	color:white;
+	font-family: "font1";
+	text-align:center;
+}
+
+#my-slider,#desc,#downloads{
+	display:none;
+}
